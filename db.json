@@ -1,0 +1,58 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "Test",
+      "content": "Description",
+      "created_at": "01/01/1970"
+    },
+    {
+      "id": 2,
+      "title": "Test",
+      "content": "Description",
+      "created_at": "01/01/1971"
+    },
+    {
+      "id": 3,
+      "title": "A note",
+      "content": "Some note content",
+      "created_at": "01/01/2022"
+    },
+    {
+      "id": 4,
+      "title": "A note",
+      "content": "Some note content",
+      "created_at": "01/01/2022"
+    },
+    {
+      "id": 5,
+      "title": "A note",
+      "content": "Some note content",
+      "created_at": "01/01/2022"
+    },
+    {
+      "id": 6,
+      "title": "A note",
+      "content": "Some note content",
+      "created_at": "01/01/2022"
+    },
+    {
+      "title": "Test de ticket",
+      "content": "Ceci est un test de ticket permettant de voir si cela fonctionne comme il faut pour chaque fois que je crée une note. Cela permet de bien ",
+      "created_at": "13/11/2023",
+      "id": 7
+    },
+    {
+      "title": "Super mega note",
+      "content": "avec du contenu",
+      "created_at": "13/11/2023",
+      "id": 8
+    },
+    {
+      "title": "Update the ticket",
+      "content": "Ce ticket est tout d'abord un test.\nMais il permet aussi de prendre en compte les sauts de lignes et toute la mise en forme d'un champ de texte de type textarea.\n\nDétails du ticket et du contenu dans le corps du ticket en question.",
+      "created_at": "19/11/2023",
+      "id": 9
+    }
+  ]
+}
