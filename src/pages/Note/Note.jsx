@@ -1,5 +1,5 @@
-import { useParams } from "react-router-dom";
 import s from "./style.module.css";
+import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { NoteForm } from "components/NoteForm/NoteForm";
 import { useState } from "react";
