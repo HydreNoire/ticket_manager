@@ -15,3 +15,7 @@
 .title_input_container {
   max-width: 350px;
 }
+
+.content_container {
+  white-space: pre-line;
+}

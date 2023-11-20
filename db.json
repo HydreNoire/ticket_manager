@@ -1,39 +1,9 @@
 {
   "notes": [
     {
-      "id": 1,
-      "title": "Test",
-      "content": "Description",
-      "created_at": "01/01/1970"
-    },
-    {
-      "id": 2,
-      "title": "Test",
-      "content": "Description",
-      "created_at": "01/01/1971"
-    },
-    {
-      "id": 3,
-      "title": "A note",
-      "content": "Some note content",
-      "created_at": "01/01/2022"
-    },
-    {
-      "id": 4,
-      "title": "A note",
-      "content": "Some note content",
-      "created_at": "01/01/2022"
-    },
-    {
-      "id": 5,
-      "title": "A note",
-      "content": "Some note content",
-      "created_at": "01/01/2022"
-    },
-    {
       "id": 6,
-      "title": "A note",
-      "content": "Some note content",
+      "title": "Vite JS",
+      "content": "However, as we build more and more ambitious applications, the amount of JavaScript we are dealing with is also increasing dramatically. It is not uncommon for large scale projects to contain thousands of modules. We are starting to hit a performance bottleneck for JavaScript based tooling: it can often take an unreasonably long wait (sometimes up to minutes!) to spin up a dev server, and even with Hot Module Replacement (HMR), file edits can take a couple of seconds to be reflected in the browser. The slow feedback loop can greatly affect developers' productivity and happiness.\n\nVite aims to address these issues by leveraging new advancements in the ecosystem: the availability of native ES modules in the browser, and the rise of JavaScript tools written in compile-to-native languages.",
       "created_at": "01/01/2022"
     },
     {
@@ -41,12 +11,6 @@
       "content": "Ceci est un test de ticket permettant de voir si cela fonctionne comme il faut pour chaque fois que je crée une note. Cela permet de bien ",
       "created_at": "13/11/2023",
       "id": 7
-    },
-    {
-      "title": "Super mega note",
-      "content": "avec du contenu",
-      "created_at": "13/11/2023",
-      "id": 8
     },
     {
       "title": "Update the ticket",
