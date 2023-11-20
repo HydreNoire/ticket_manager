@@ -3,6 +3,7 @@ import s from "./style.module.css";
 import { NoteList } from "containers/NoteList/NoteList";
 import { useState } from "react";
 import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 
 export function NoteBrowse(props) {
   const [searchText, setSearchText] = useState("");
@@ -29,6 +30,15 @@ export function NoteBrowse(props) {
           />
         </div>
       </div>
+
+      {noteList?.length === 0 && (
+        <div className="d-flex justify-content-center">
+          <span>
+            Tu n'as pas de ticket, veux-tu en créer{" "}
+            <Link to="/note/new">un nouveau</Link> ?
+          </span>
+        </div>
+      )}
       <NoteList noteList={filteredList} />
     </>
   );
