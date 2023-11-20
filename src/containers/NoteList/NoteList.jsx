@@ -5,8 +5,7 @@ import s from "./style.module.css";
 import { NoteAPI } from "api/note-api";
 import { deleteNote } from "store/note/note-slice";
 
-export function NoteList(props) {
-  const noteList = useSelector((store) => store.NOTE.noteList);
+export function NoteList({ noteList }) {
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
